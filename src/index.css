@@ -131,6 +131,24 @@ h4 {
 }
 /* end service brand style */
 
+/* start contact map style */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 600px;
+  width: 300px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 600px;
+  width: 300px;
+}
+
+/* end contact map style */
+
 @media (max-width: 816px) {
   .img-fluid {
     width: 300px !important;
