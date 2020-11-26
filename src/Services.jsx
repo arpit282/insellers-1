@@ -1,12 +1,16 @@
 import React from "react";
-import service from "./service_overlay";
+import Overlay from "./service_overlay";
+import Card from "./service_card";
+import Brand from "./service_brand";
 
-const Services = () => {
+const services = () => {
   return (
     <>
-      <service />
+      <Overlay />
+      <Card />
+      <Brand />
     </>
   );
 };
 
-export default Services;
+export default services;
