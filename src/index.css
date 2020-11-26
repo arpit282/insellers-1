@@ -7,19 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a.active_class{
-  color:rgb(16, 87, 240) !important;
+a.active_class {
+  color: rgb(16, 87, 240) !important;
   border-bottom: 1px solid rgb(16, 87, 240) !important;
-  transition: .5s !important;
+  transition: 0.5s !important;
 }
-
 
 .nav-item a:hover {
   color: #3498db !important;
 }
 
 .footer {
-  background: #1A75BC;
+  background: #1a75bc;
   color: aliceblue;
   position: relative;
   padding: 20px;
@@ -34,121 +33,150 @@ h4 {
   font-size: 18px;
   color: #fff;
 }
-.links{
-  color:#fff !important;
+.links {
+  color: #fff !important;
 }
 
-.contact_us{
+.contact_us {
   background: #fff !important;
-  box-shadow: 7px 10px 35px rgba(0, 0, 0, .2);
+  box-shadow: 7px 10px 35px rgba(0, 0, 0, 0.2);
   border-radius: 7px !important;
   height: 150px !important;
   color: #3498db;
   padding: 50px !important;
 }
-.contact{
+.contact {
   background: #3498db !important;
 }
-.icons{
+.icons {
   text-decoration: none !important;
 }
 
-.about_jumbo{
-  background-color: #1A75BC !important;
+.about_jumbo {
+  background-color: #1a75bc !important;
   opacity: 0.8 !important;
 }
-.card_abt,.card_abt img{
+.card_abt,
+.card_abt img {
   height: 400px !important;
 }
-.jumbo_card{
+.jumbo_card {
   margin-top: -100px !important;
 }
-.dash{
+.dash {
   width: 40px !important;
   height: 5px !important;
   background: #3498db !important;
 }
-.jumbo_text{
+.jumbo_text {
   font-size: 28px !important;
   color: #000;
 }
-.about_img img{
+.about_img img {
   width: 570px !important;
   height: 441px !important;
 }
-.card_shadow{
-  box-shadow: 15px 15px 35px rgba(0,0,0,.2);
+.card_shadow {
+  box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.2);
 }
 .blog_link {
   font-size: 24px !important;
   color: #000 !important;
 }
+/* start service card style */
 
+.serviceHeading {
+  text-align: center;
+  padding: 100px 0px 50px 0px;
+  font-weight: bolder;
+}
+.card {
+  background-color: #f3f9fe;
+  margin: 10px;
+  padding: 40px;
+  border: 1px solid #f3f9fe;
+  box-shadow: -7px 12px 25px #e6e6e6;
+  border-radius: 10px;
+}
+.card:hover {
+  background-color: #f3f9fe;
+  transition-duration: 0.3s;
+  box-shadow: 0px;
+}
+.serviceImage {
+  height: 100px;
+  width: 100px;
+}
+.serviceTitle {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* end service card style */
 
-
-
-@media(max-width:816px){
-  .img-fluid{
+@media (max-width: 816px) {
+  .img-fluid {
     width: 300px !important;
     height: 300px !important;
   }
   .home_text {
     margin-top: -30px !important;
   }
-  .home_text > h2{
+  .home_text > h2 {
     font-size: 14px !important;
   }
-  .nav_bg{
+  .nav_bg {
     display: block ruby !important;
   }
 }
 
-@media(max-width:430px){
-  .container-fluid img{
+@media (max-width: 430px) {
+  .container-fluid img {
     width: 50px !important;
     height: 50px !important;
   }
-  .navbar-brand , h1{
+  .navbar-brand,
+  h1 {
     font-size: 24px !important;
   }
-  .dropdown{
+  .dropdown {
     display: contents !important;
   }
   /* .nav_bg {
     font-size: 55px !important;
   } */
-  .contact_us  h2{
+  .contact_us h2 {
     font-size: 20px !important;
   }
-  .contact_us{
+  .contact_us {
     display: -webkit-box;
   }
-  .dropdown-btn{
+  .dropdown-btn {
     float: right !important;
-  } 
-  .row{
+  }
+  .row {
     display: flex !important;
   }
-  .nav_bg{
+  .nav_bg {
     justify-content: space-around;
   }
-  .nav_bg .btn{
+  .nav_bg .btn {
     padding: 5px !important;
     width: 100px !important;
     height: 30px !important;
     font-size: 12px !important;
   }
-  .home_img img{
+  .home_img img {
     width: 400px !important;
     height: 300px !important;
   }
- .navbar-brand{
-   margin-left: 40px !important;
-   margin-right: 80px !important;
- }
+  .navbar-brand {
+    margin-left: 40px !important;
+    margin-right: 80px !important;
+  }
 }
-@media(max-width:380px){
-  .navbar-brand{
+@media (max-width: 380px) {
+  .navbar-brand {
     margin-left: 20px !important;
     margin-right: 60px !important;
   }
