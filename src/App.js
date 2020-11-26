@@ -4,6 +4,7 @@ import About from "./About";
 import Blog from "./Blog";
 import Tech from "./Tech";
 import Services from "./Services";
+import Contact from "./contact";
 import Interview from "./Interview";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/tech" component={Tech} />
         <Route exact path="/interview" component={Interview} />
         <Route exact path="/services" component={Services} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
       <Jumbotron />
       <Footer />
