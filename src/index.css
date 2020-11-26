@@ -114,6 +114,23 @@ h4 {
 }
 /* end service card style */
 
+/* strat service brand style */
+.brandrow {
+  border-top: 1px solid #f5f3f0;
+  border-bottom: 1px solid #f5f3f0;
+  margin: 50px 0px;
+  text-align: center;
+  padding: 0px 185px;
+}
+.brand_container {
+  margin: 20px;
+}
+.brandImage {
+  height: 70px;
+  width: 100px;
+}
+/* end service brand style */
+
 @media (max-width: 816px) {
   .img-fluid {
     width: 300px !important;
