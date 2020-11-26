@@ -131,6 +131,17 @@ h4 {
 }
 /* end service brand style */
 
+/* start contact style */
+
+.contact_container {
+  margin-top: 100px;
+}
+.box {
+  box-sizing: border-box !important;
+  padding: 0px 200px;
+}
+/* end contact map style */
+
 /* start contact map style */
 
 .mapouter {
