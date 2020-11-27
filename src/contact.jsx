@@ -10,7 +10,7 @@ const contact = () => {
         <Coverlay />
         <div class="contact_container">
           <div class="row box">
-            <div class="col-lg-9 col-sm-12">
+            <div class="left_container col-lg-9 col-sm-12">
               <div class="col">
                 <h3>Request Free Consultation</h3>
               </div>
@@ -23,7 +23,7 @@ const contact = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-12">
+            <div class="Right_Container col-lg-3 col-sm-12">
               <h3>Get In Touch</h3>
               <h5>Reach Us</h5>
               <List />
