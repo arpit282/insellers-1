@@ -1,12 +1,18 @@
 import React from "react";
-import SignIn from "./SignIn";
-import Popup from "./popup";
+import RightContainerForm from "./right_container_form";
+import LeftContainerForm from "./left_container_form";
 
 const account = () => {
   return (
     <>
-      <SignIn />
-      <Popup />
+      <div className="row">
+        <div className="col-md-6">
+          <LeftContainerForm />
+        </div>
+        <div className="col-md-6">
+          <RightContainerForm />
+        </div>
+      </div>
     </>
   );
 };
