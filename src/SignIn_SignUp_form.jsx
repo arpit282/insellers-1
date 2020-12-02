@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import ChangeTab from "./popup";
 
 const SignIn_SignUp_form = () => {
   return (
