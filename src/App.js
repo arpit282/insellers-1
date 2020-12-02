@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/interview" component={Interview} />
         <Route exact path="/services" component={Services} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/account" component={Account} />
+        <Route exact path="/Sign" component={Account} />
       </Switch>
       <Jumbotron />
       <Footer />

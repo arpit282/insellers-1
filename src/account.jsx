@@ -5,7 +5,7 @@ import LeftContainerForm from "./left_container_form";
 const account = () => {
   return (
     <>
-      <div className="row">
+      <div className="row signContainer">
         <div className="col-md-6">
           <LeftContainerForm />
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
 
-function popup() {}
+function changeTab(ref) {}
 
-export default popup;
+export default changeTab;
