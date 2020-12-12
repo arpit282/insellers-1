@@ -56,13 +56,13 @@ h4 {
   opacity: 0.8 !important;
 }
 /* .card_abt, */
+.card_abt,
 .card_abt img {
   height: 400px !important;
-  padding: 0px !important;
 }
 
 .jumbo_card {
-  margin-top: -150px !important;
+  margin-top: -100px !important;
 }
 .dash {
   width: 40px !important;

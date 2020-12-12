@@ -14,10 +14,12 @@
     "@testing-library/user-event": "^12.2.2",
     "bootstrap": "^4.5.3",
     "font-awesome": "4.7.0",
+    "phoenix-app-bar": "0.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-typing-effect": "2.0.4",
     "reactstrap": "8.7.1",
     "web-vitals": "^0.2.4"
   },
